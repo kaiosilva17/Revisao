@@ -1,0 +1,51 @@
+1-instalar o git
+2-instalar o node js "LTS"
+
+//Configurar o git
+git config --global user.name "Fulano de Tal"
+git config --global user.email fulanodetal@exemplo.br
+
+//Atualizar o npm
+npm install -g npm@9.6.2
+
+//Criando projeto next js
+npx create-next-app@latest ''nome do arquivo''
+//Executar projeto
+npm run dev
+
+//Instalar plugin ES7+
+
+//Cria arquivo e digita: rafce
+
+//Chamar arquivo: /nome do arquivo
+
+//Pra instalar uma biblioteca é necessario colocar npm e o nome da biblioteca
+
+//Biblioteca bootstrap para react
+npm install react-bootstrap bootstrap
+
+// para importar os componentes é so ir na ultima letra do componente e aperta cntl com espaço
+
+//map(loop)
+
+{carros.map(item=>(
+          
+         ))}
+//useEffect
+const [deputados, setDeputados] = useState([])
+
+    useEffect(()=>{
+       
+        apiDeputados.get('/deputados').then(resultado=>{
+            setDeputados(resultado.data.dados)
+        })
+
+    },[])
+
+//API dos deputados:
+https://dadosabertos.camara.leg.br/api/v2
+
+//instalando biblioteca axios
+npm i axios 
+
+//estrutura do axios
